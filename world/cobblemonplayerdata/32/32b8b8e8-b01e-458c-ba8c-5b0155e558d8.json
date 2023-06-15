@@ -1,0 +1,21 @@
+{
+  "uuid": "32b8b8e8-b01e-458c-ba8c-5b0155e558d8",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "cf1987d9-003a-432d-9b79-c12084780feb",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 2,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTypeCaptureCounts": {
+      "dark": 1,
+      "normal": 1,
+      "ghost": 1,
+      "poison": 1
+    }
+  }
+}

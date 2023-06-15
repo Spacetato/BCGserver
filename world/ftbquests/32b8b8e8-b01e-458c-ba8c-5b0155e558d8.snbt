@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "32b8b8e8b01e458cba8c5b0155e558d8"
+	name: "Clawlemon_"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

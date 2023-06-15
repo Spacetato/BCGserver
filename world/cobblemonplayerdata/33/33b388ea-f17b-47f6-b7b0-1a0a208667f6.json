@@ -1,0 +1,26 @@
+{
+  "uuid": "33b388ea-f17b-47f6-b7b0-1a0a208667f6",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "d80878a0-f8ad-4f7a-982a-ab9f49e2c300",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 14,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTypeCaptureCounts": {
+      "ghost": 1,
+      "poison": 2,
+      "normal": 5,
+      "rock": 4,
+      "grass": 1,
+      "fairy": 2,
+      "flying": 2,
+      "fire": 2,
+      "ground": 2
+    }
+  }
+}

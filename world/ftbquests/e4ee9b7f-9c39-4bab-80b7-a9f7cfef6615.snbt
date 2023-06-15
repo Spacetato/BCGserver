@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "e4ee9b7f9c394bab80b7a9f7cfef6615"
+	name: "SpaceTato"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
