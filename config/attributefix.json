@@ -1,5 +1,49 @@
 {
   "attributes": {
+    "forge:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "obscure_api:penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "forge:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 10000000
+      }
+    },
+    "apotheosis:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -11,8 +55,107 @@
         "value": 10000000
       }
     },
-    "reach-entity-attributes:reach": {
+    "epicfight:offhand_attack_damage": {
       "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 10000000
+      }
+    },
+    "apotheosis:arrow_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "obscure_api:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "epicfight:weight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "forge:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
+        "value": 10000000
+      }
+    },
+    "epicfight:offhand_armor_negation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "obscure_api:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 10000000
+      }
+    },
+    "apotheosis:draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 4,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.luck": {
+      "enabled": true,
       "min": {
         "default": -1024,
         "value": -1024
@@ -22,8 +165,316 @@
         "value": 10000000
       }
     },
+    "apotheosis:ghost_health": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "darksouls:thrust_defense": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.99,
+        "value": 10000000
+      }
+    },
+    "obscure_api:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 10000000
+      }
+    },
+    "forge:reach_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "obscure_api:healing_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "darksouls:poise_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "apotheosis:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0.8,
+        "value": 0.8
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
+    "apotheosis:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "apotheosis:piercing": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "paraglider:max_stamina": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 10000000
+      }
+    },
+    "epicfight:offhand_impact": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:zombie.spawn_reinforcements": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "apotheosis:current_hp_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "apotheosis:overheal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "apotheosis:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_knockback": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "darksouls:poise": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.armor_toughness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "darksouls:standard_defense": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.99,
+        "value": 10000000
+      }
+    },
+    "epicfight:impact": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 10000000
+      }
+    },
+    "darksouls:strike_defense": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.99,
+        "value": 10000000
+      }
+    },
+    "biomemakeover:projectile_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 10000000
+      }
+    },
+    "obscure_api:parry": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "apotheosis:cold_damage": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
@@ -44,36 +495,36 @@
         "value": 10000000
       }
     },
-    "porting_lib:step_height_addition": {
-      "enabled": false,
-      "min": {
-        "default": -512,
-        "value": -512
-      },
-      "max": {
-        "default": 512,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.luck": {
-      "enabled": true,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "tiered:generic.durable": {
+    "darksouls:slash_defense": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1,
+        "default": 0.99,
+        "value": 10000000
+      }
+    },
+    "epicfight:staminar": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "ars_nouveau:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
         "value": 10000000
       }
     },
@@ -88,47 +539,47 @@
         "value": 10000000
       }
     },
-    "tiered:generic.range_attack_damage": {
+    "apotheosis:crit_damage": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 10000000
-      }
-    },
-    "creeperoverhaul:reach_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
+        "default": 1,
+        "value": 1
       },
       "max": {
         "default": 1024,
         "value": 10000000
       }
     },
-    "porting_lib:swim_speed": {
+    "obscure_api:critical_hit": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 100,
         "value": 10000000
       }
     },
-    "creeperoverhaul:swim_speed": {
+    "darksouls:equip_load": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 150,
+        "value": 10000000
+      }
+    },
+    "ars_nouveau:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2000,
         "value": 10000000
       }
     },
@@ -143,25 +594,47 @@
         "value": 10000000
       }
     },
-    "porting_lib:entity_gravity": {
+    "epicfight:stun_armor": {
       "enabled": false,
       "min": {
-        "default": -8,
-        "value": -8
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 8,
+        "default": 1024,
         "value": 10000000
       }
     },
-    "combatroll:distance": {
+    "epicfight:offhand_max_strikes": {
       "enabled": false,
       "min": {
         "default": 1,
         "value": 1
       },
       "max": {
-        "default": 24,
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "apotheosis:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "darksouls:max_stamina": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },
@@ -176,25 +649,14 @@
         "value": 10000000
       }
     },
-    "stepheightentityattribute:stepheight": {
+    "obscure_api:critical_damage": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "combatroll:recharge": {
-      "enabled": false,
-      "min": {
-        "default": 0.1,
-        "value": 0.1
-      },
-      "max": {
-        "default": 200,
+        "default": 100,
         "value": 10000000
       }
     },
@@ -209,36 +671,47 @@
         "value": 10000000
       }
     },
-    "combatroll:count": {
+    "epicfight:offhand_attack_speed": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 20,
+        "default": 1024,
         "value": 10000000
       }
     },
-    "tiered:generic.crit_chance": {
+    "darksouls:max_equip_load": {
+      "enabled": false,
+      "min": {
+        "default": 50,
+        "value": 50
+      },
+      "max": {
+        "default": 150,
+        "value": 10000000
+      }
+    },
+    "epicfight:max_strikes": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "epicfight:armor_negation": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1,
-        "value": 10000000
-      }
-    },
-    "minecraft:zombie.spawn_reinforcements": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
+        "default": 100,
         "value": 10000000
       }
     },
@@ -253,14 +726,14 @@
         "value": 10000000
       }
     },
-    "minecraft:generic.attack_knockback": {
-      "enabled": true,
+    "savage_and_ravage:explosive_damage_reduction": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 5,
+        "default": 1,
         "value": 10000000
       }
     },
@@ -272,39 +745,6 @@
       },
       "max": {
         "default": 1,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.armor_toughness": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 10000000
-      }
-    },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "tiered:generic.dig_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
         "value": 10000000
       }
     }

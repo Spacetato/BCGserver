@@ -1,6 +1,10 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
+		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
@@ -127,12 +131,11 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": false,
-			"cachingDisplayLookup": true
+			"cachingFastEntryRendering": false
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "UNSET",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {
@@ -149,7 +152,7 @@
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
-		"horizontalEntriesBoundariesColumns": 16,
+		"horizontalEntriesBoundariesColumns": 50,
 		"verticalEntriesBoundariesRows": 1000,
 		"favoritesHorizontalEntriesBoundaries": 1.0,
 		"favoritesHorizontalEntriesBoundariesColumns": 50,

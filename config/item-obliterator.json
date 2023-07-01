@@ -1,8 +1,0 @@
-{
-  "blacklisted_items": [
-    "seasonsextras:season_calendar",
-    "supplementaries:slingshot"
-  ],
-  "only_disable_interactions": [],
-  "only_disable_attacks": []
-}
